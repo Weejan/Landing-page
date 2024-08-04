@@ -11,9 +11,9 @@ html{
 }
 
 :root{
-    --black : black;
-    --background-color : rgb(245, 246, 238);
-    --text-color : black;
+    --black : rgb(0, 0, 0);
+    --background-color : rgb(255, 255, 255);
+    --text-color : rgb(0, 0, 0);
     --spoty-green: 	#1db954;
     --hover-gray: #535353;
     --h1: 50px;
@@ -28,7 +28,7 @@ html{
 }
 
 #header{
-    padding: 20px 60px;
+    padding: 20px 120px;
     display: flex;
     justify-content: space-between;
     margin: 10px;
@@ -84,6 +84,7 @@ html{
 }
 #first-section-text h1{
     font-size: 50px;
+    color: whitesmoke;
     margin: 0 0 0 10px;
 
 }
@@ -135,7 +136,7 @@ html{
     display: flex;
     justify-content: center;
     padding: 40px 20px;
-    color: rgb(0, 0, 0);
+    color: var(--text-color);
 }
 
 #playlists{
@@ -151,3 +152,30 @@ html{
     padding: 20px;
 }
 
+#third-section{
+    background-color: rgb(53, 52, 52);
+    padding: 20px 80px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#quote p{
+    font-size: 30px;
+    font-style: italic;
+    font-weight: 200;
+    color: white;
+    display: flex;
+    justify-content: center;
+
+}
+
+#author p{
+    color: white;
+    display: flex;
+    justify-content: flex-end;
+    margin: 0 200px 0 0 ;
+    font-size: 26px;
+    font-weight: 400;
+
+}
